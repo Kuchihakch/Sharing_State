@@ -38,7 +38,7 @@ export default function WishListForm({onSubmit}){
    }
     return(
         <section className="grid md:grid-cols-2 gap-3">
-        <form id="formInput" onSubmit={handleSubmit} className="flex flex-col gap-3 border border-accent p-10 rounded-md shadow-accent shadow-sm">
+        <form id="formInput" onSubmit={handleSubmit} className="flex flex-col gap-3 border border-accent p-10 overflow-x-hidden rounded-md shadow-accent shadow-sm">
                 <p className="font-bold text-center underline-offset-5 underline">Nama Barang:</p>
                 <input type="text" placeholder="Masukkan Nama Barang" className="input input-accent w-full" onChange={handleOnNameChange}/>
                 <p className="font-bold">Kategori:</p>
