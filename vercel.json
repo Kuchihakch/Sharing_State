@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/wishlist.html",
+      "destination": "/WishList.html",
       "permanent": true
     }
   ]
