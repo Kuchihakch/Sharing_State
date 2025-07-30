@@ -37,7 +37,7 @@ export default function WishListForm({onSubmit}){
         setItem({name:"", type: "", status:""})
    }
     return(
-        <section className="grid grid-cols-2 gap-3">
+        <section className="grid md:grid-cols-2 gap-3">
         <form id="formInput" onSubmit={handleSubmit} className="flex flex-col gap-3 border border-accent p-10 rounded-md shadow-accent shadow-sm">
                 <p className="font-bold text-center underline-offset-5 underline">Nama Barang:</p>
                 <input type="text" placeholder="Masukkan Nama Barang" className="input input-accent w-full" onChange={handleOnNameChange}/>
@@ -48,7 +48,7 @@ export default function WishListForm({onSubmit}){
                 <option value="fashion">Fashion</option>
                 <option value="perabotan">Perabotan</option>    
                 </select>
-                <div className="flex justify-center gap-10 items-center" onChange={handleOnStatusChange}>
+                <div className="flex justify-center gap-2 lg:gap-10 items-center" onChange={handleOnStatusChange}>
                     <div className="value1 flex gap-2 items-center">
                      <input type="radio" name="status" value="Penting"/>Penting   
                     </div>

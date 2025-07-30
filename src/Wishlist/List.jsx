@@ -11,7 +11,7 @@ export default function List(){
     return(
         <main className="bg-base-200 min-h-screen flex justify-center">
             <section className="flex justify-center">
-            <div className="container grid grid-cols-2 gap-2 place-content-center h-screen">
+            <div className="container my-20 grid md:grid-cols-2 gap-2 place-content-center min-h-screen">
                 <div className="left flex flex-col gap-2">
                 <div>
                     <p className="font-bold text-xl flex justify-center border border-accent p-10 rounded-md shadow-accent shadow-sm">WishList App</p>
